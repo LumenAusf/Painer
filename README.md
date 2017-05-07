@@ -1,4 +1,4 @@
-# Painer
+# Painter
 
 While empty. Come back tomorrow.
 
