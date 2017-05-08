@@ -16,6 +16,10 @@ class Area : public QWidget
 
 public:
     explicit Area(QWidget *parent = 0);
+    void mouseMoveEvent(QMouseEvent *event);
+    void mousePressEvent(QMouseEvent *event);
+    void mouseReleaseEvent(QMouseEvent *event);
+    void weMakeFillWithBlackjackAndHookers(int x, int y, QColor color = Qt::white);
 
 signals:
 
